@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{coletivo}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Di\303\263genes Falc\303\243o"]
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     "lib/generators/coletivo/coletivo_generator.rb",
     "lib/generators/coletivo/templates/person_ratings_migration.rb"
   ]
-  s.homepage = %q{http://github.com/diogenes/coletivo}
+  s.homepage = %q{http://github.com/base16soft/coletivo}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}

@@ -4,6 +4,7 @@ module Coletivo
       belongs_to :person, :polymorphic => true
       belongs_to :rateable, :polymorphic => true
 
+      attr_accessible :person, :rateable, :weight
       validates :person, :rateable, :weight, :presence => true
 
       def self.find_for_recommendation(person, rateable_type)
